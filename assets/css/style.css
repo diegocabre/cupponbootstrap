@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #28A745;
+}
+
+.nav-link {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.card {
+    cursor: default;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-title {
+    width: 100%;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    color: #212529;
+}
+
+.descripcion {
+    font-family: Roboto;
+    font-weight: 300;
+    font: size 16px;
+    color: #707070;
+
+}
+
+.ubicacion {
+    font-family: Roboto;
+    font-weight: 300;
+    font: size 13px;
+    color: #707070;
+}
+
+.card-footer {
+    justify-content: end;
+    align-items: center;
+}
+
+.precio {
+    margin: 0%;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.oferta {
+    margin: 0%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #28A745;
+}
+
+.formulario {
+    background-color: #28A745;
+}
+
+.form-titulo {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.derechos {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
